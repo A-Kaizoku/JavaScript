@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    /*if we want to get the list items at the center then we can use justify_content:center */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: .77;
+    top: 0;
+    left: 0;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+#navbar ul li{
+   
+    /* color: aliceblue; */
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.To-do{
+    margin-top: 40px;
+}
+
+.To-do li{
+    list-style-type: none;
+    max-width: 200px;
+    padding: 8px;
+    margin: 10px auto;
+    background: #eee;
+    border: 1px dotted #ddd;
+}
