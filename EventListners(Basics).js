@@ -14,8 +14,13 @@ items.forEach(item=>{
     item.addEventListener('click', event =>{
         // console.log(event);
         console.log(event.target);
-        event.target.style.textDecoration='line-through';
+        event.target.style.textDecoration='line-through'; //this adds a line through style to the li tag
+        // item.style.display='none';
 
+        //but we dont want a line thorugh , we want to completely remove that tag 
+        //so how to remove a tag using dom
+        
+        li.remove()
     });
 })
 
