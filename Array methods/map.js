@@ -19,6 +19,12 @@ const saleProducts = products.map(product => {
   }
 });
 
+
+
+
+
+// chaining different array methods
+
 console.log(products, saleProducts);
 
 //using filter and map both
