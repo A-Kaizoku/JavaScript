@@ -1,1 +1,1 @@
-# JavaScript
+# JavaScript HandsOn and notes
